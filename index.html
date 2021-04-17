@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+
+    <!-- Styles -->
+    <link rel="preload" href="./build/css/app.css" type="text/css">
+    <link rel="stylesheet" href="./build/css/app.css" type="text/css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#">Line Up</a>
+                <a href="#">Galeria</a>
+                <a href="#">Boletos</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="video">
+
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Rock & EDM Festival
+                    <span>Julio 2021, Puerto Plata, Rep. Dom.</span>
+                </h2>
+            </div>
+        </div>
+
+        <!-- atributo muted es requerido por chrome para la reproduccion automatica -->
+        <video muted autoplay loop controls>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+            Tu navegador no soporta este <code>video</code>.
+        </video>
+
+    </div>
+
+    <div class="sobre-festival contenedor">
+        <div class="imagen">
+            <img src="./build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </div>
+        <div class="contenido-fastival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">
+                Rock & EDM Festival Julio 2021, Puerto Plata, Rep. Dom.
+            </p>
+            <p class="texto">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Velit quaerat eveniet magni inventore nihil eos. Perspiciatis nostrum assumenda repudiandae adipisci explicabo natus, enim, quasi distinctio labore voluptates, qui a error.</p>
+        </div>
+    </div>
+
+    <section class="lineup">
+        <h3>Line up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p>Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Wilson Diaz</span></li>
+                    <li>23:00 | <span>Danny Berrios</span></li>
+                    <li>22:00 | <span>Jesus Adrian Romero</span></li>
+                    <li>21:00 | <span>Daniel Carveti</span></li>
+                    <li>20:00 | <span>Uncion Tropical</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p>Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Marcella Gandala></li>
+                    <li>23:00 | <span>Lilly Godman</span></li>
+                    <li>22:00 | <span>Nancy Amancio</span></li>
+                    <li>21:00 | <span>Isabel Valdez</span></li>
+                    <li>20:00 | <span>Egleyda Belliard</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <p class="dia">Sabado 22</p>
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p>Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Wilson Diaz</span></li>
+                    <li>23:00 | <span>Danny Berrios</span></li>
+                    <li>22:00 | <span>Jesus Adrian Romero</span></li>
+                    <li>21:00 | <span>Daniel Carveti</span></li>
+                    <li>20:00 | <span>Uncion Tropical</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p>Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Marcella Gandala></li>
+                    <li>23:00 | <span>Lilly Godman</span></li>
+                    <li>22:00 | <span>Nancy Amancio</span></li>
+                    <li>21:00 | <span>Isabel Valdez</span></li>
+                    <li>20:00 | <span>Egleyda Belliard</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

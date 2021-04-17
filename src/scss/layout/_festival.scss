@@ -1,0 +1,29 @@
+.sobre-festival {
+	padding: $separacion 0;
+
+	@include tablet {
+
+		// @params grid-template-columns
+		// @params gap
+		@include grid(2, $separacion);
+	}
+
+}
+
+.contenido-fastival {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	h2 {
+		font-size: 3rem;
+	}
+	.fecha {
+		color: $rosa;
+		font-weight: $fw_bold;
+	}
+	.texto {
+		line-height: 1.5;
+	}
+}
+
+
